@@ -1,0 +1,9 @@
+{
+  "name": "which-matatu",
+  "version": "1.0.0",
+  "description": "The project is about offering answers to kenyans who google which matatus to take from one point to another. It will also be collecting data from the public.",
+  "main": "index.js",
+  "author": "Kirera-Wainaina",
+  "license": "MIT",
+  "private": true
+}
