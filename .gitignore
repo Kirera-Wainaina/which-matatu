@@ -1,2 +1,6 @@
 # ignore emacs files
 *~
+
+# certificates
+localhost-privkey.pem
+localhost-cert.pem
