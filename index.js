@@ -1,7 +1,7 @@
 const http2 = require("http2");
 const fs = require("fs");
 const url = require("url");
-
+const path = require("path");
 
 const port = 443;
 const options = {
@@ -16,7 +16,8 @@ server.on("request", (request, response) => {
     console.log(`${new Date()}, ${url.pathname}`)
     if (url.pathname == "/") {
 	response.writeHead(200, {"content-type": "text/html" })
-	    .end("<h1>Home Page</h1>")
+	fs.createReadStream(path.join(__dirname, "/frontend/html/home.html"))
+	    .pipe(response)
     }
 })
 
