@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+);
+
+:root {
+    --wm-gold: #cf9b00;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(1fr, 12);
+}
+
+header {
+    border-bottom: 1px solid lightgrey;
+    grid-column: 1 / 13;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2em;
+}
+
+header > img {
+    height: 4em;
+}
+
+header > p {
+    font-family: "Kaushan Script", cursive;
+    font-size: 1.5em;
+    color: var(--wm-gold);
+}
+
+@media (max-width: 500px) {
+    body {
+	grid-template-columns: repeat(1fr, 5);
+    }
+
+    header {
+	grid-column: 1 / 6;
+    }
+}
+
+
