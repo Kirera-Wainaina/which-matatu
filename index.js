@@ -1,5 +1,7 @@
 const http2 = require("http2");
 const fs = require("fs");
+const url = require("url");
+
 
 const port = 443;
 const options = {
@@ -10,9 +12,10 @@ const options = {
 const server = http2.createSecureServer(options);
 
 server.on("request", (request, response) => {
-    console.log("Request received");
-    response.writeHead(200, { "content-type": "text/plain" })
-	.end("Hello word")
+    const url = new URL(request.headers[":path"], "https://whichmatatu.com")
+    console.log(`${new Date()}, ${url.pathname}`)
+    response.writeHead(200, { "content-type": "text/html" })
+	.end("<p>Hello word</p>")
 })
 
 server.listen(port, () => console.log(`Listening on port ${port}`))
