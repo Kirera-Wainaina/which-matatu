@@ -14,8 +14,10 @@ const server = http2.createSecureServer(options);
 server.on("request", (request, response) => {
     const url = new URL(request.headers[":path"], "https://whichmatatu.com")
     console.log(`${new Date()}, ${url.pathname}`)
-    response.writeHead(200, { "content-type": "text/html" })
-	.end("<p>Hello word</p>")
+    if (url.pathname == "/") {
+	response.writeHead(200, {"content-type": "text/html" })
+	    .end("<h1>Home Page</h1>")
+    }
 })
 
 server.listen(port, () => console.log(`Listening on port ${port}`))
