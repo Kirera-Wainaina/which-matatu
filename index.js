@@ -3,6 +3,8 @@ const fs = require("fs");
 const url = require("url");
 const path = require("path");
 
+const mimes = require("./utils/MIMETypes.js");
+
 const port = 443;
 const options = {
     key: fs.readFileSync("localhost-privkey.pem"),
@@ -15,10 +17,18 @@ server.on("request", (request, response) => {
     const url = new URL(request.headers[":path"], "https://whichmatatu.com")
     console.log(`${new Date()}, ${url.pathname}`)
     if (url.pathname == "/") {
-	response.writeHead(200, {"content-type": "text/html" })
-	fs.createReadStream(path.join(__dirname, "/frontend/html/home.html"))
-	    .pipe(response)
+	handleFile(response, "/frontend/html/home.html")
+    } else {
+	handleFile(response, url.pathname);
     }
 })
 
-server.listen(port, () => console.log(`Listening on port ${port}`))
+server.listen(port, () => console.log(`Listening on port ${port}`));
+
+function handleFile(response, webRoute) {
+    const route = path.join(__dirname, webRoute);
+    const mimeType = mimes.findMIMETypeFromExtension(path.extname(route));
+    response.writeHead(200, { "content-type": mimeType });
+    fs.createReadStream(route)
+	.pipe(response)
+}
