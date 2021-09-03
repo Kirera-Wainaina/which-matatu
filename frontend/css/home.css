@@ -17,18 +17,16 @@ body {
 header {
     border-bottom: 1px solid lightgrey;
     grid-column: 1 / 13;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    padding-left: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 4em;
 }
 
 header > img {
-    height: 4em;
-    grid-column: 1 / 2;
 }
 
 #logo {
-    grid-column: 2 / 13;
     font-family: "Kaushan Script", cursive;
     font-size: 1.5em;
     color: var(--wm-gold);
