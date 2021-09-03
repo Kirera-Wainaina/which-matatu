@@ -47,6 +47,25 @@ header > img {
     }
 }
 
+header span {
+    margin-top: -50px;
+    transform-origin: bottom;    
+}
+
+@keyframes hanging {
+    0% { transform: rotateZ(0deg); }
+
+    20% { transform: rotateZ(225deg); }
+
+    40% { transform: rotateZ(135deg); }
+
+    60% { transform: rotateZ(202.5deg); }
+
+    80% { transform: rotateZ(157.5deg); }
+
+    100% { transform: rotateZ(180deg); }
+}
+
 @media (max-width: 500px) {
     body {
 	grid-template-columns: repeat(5, 1fr);
