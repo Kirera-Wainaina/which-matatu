@@ -9,9 +9,22 @@ window.addEventListener("DOMContentLoaded", () => {
 })
 
 const service = new google.maps.places.AutocompleteService();
-service.getPlacePredictions(
-    { input: "kahawa" },
-    (prediction, status) => {
-	console.log(prediction);
-	console.log(status)
-    });
+const destination = document.getElementById("destination");
+destination.addEventListener("change", event => {
+    console.log(event.target.value)
+    const neKenya = new google.maps.LatLng({ lat: 4.995, lng: 42.764 });
+    const swKenya = new google.maps.LatLng({ lat: -5.196, lng: 34.021 });
+    service.getPlacePredictions(
+	{ input: event.target.value,
+	  bounds: new google.maps.LatLngBounds(swKenya, neKenya) },
+	(predictions, status) => {
+	    console.log(status);
+	    if (status == google.maps.places.PlacesServiceStatus.OK) {
+		displayPredictions(predictions);
+	    }
+	});
+})
+
+function displayPredictions(predictions) {
+    console.log(predictions)
+}
