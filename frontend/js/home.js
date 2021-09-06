@@ -34,6 +34,7 @@ function displayPredictions(predictions) {
 	pEl.textContent = prediction.description;
 	pEl.dataset.placeId = prediction.place_id;
 	pEl.classList.add("prediction");
+	pEl.addEventListener("click", handlePredictionClick)
 	fragment.appendChild(pEl);
     });
     destination.parentNode.appendChild(fragment);
@@ -43,4 +44,8 @@ function removePreviousPredictions() {
     const predictions = document.querySelectorAll(".prediction");
     predictions.forEach(
 	prediction => prediction.parentNode.removeChild(prediction))
+}
+
+function handlePredictionClick(event) {
+    console.log(event.target.dataset.placeId)
 }
