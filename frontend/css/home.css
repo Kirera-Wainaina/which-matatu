@@ -122,6 +122,11 @@ h1 {
     padding-left: 0.7em;
 }
 
+.prediction:hover {
+    color: white;
+    background-color: var(--wm-gold);
+}
+
 @media (max-width: 500px) {
     body {
 	grid-template-columns: repeat(5, 1fr);
