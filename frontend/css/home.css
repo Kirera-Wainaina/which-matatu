@@ -115,7 +115,11 @@ h1 {
 .prediction {
     background-color: white;
     width: 50vw;
-    height: 1.7em;
+    height: 2em;
+    border: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    padding-left: 0.7em;
 }
 
 @media (max-width: 500px) {
@@ -156,10 +160,19 @@ h1 {
 
     #search-container {
 	grid-column: 1 / 6;
+	height: 75vh;
     }
     
     #destination {
 	width: 80vw;
+    }
+
+    .prediction {
+	font-size: 1.3em;
+	width: 80vw;
+	height: max-content;
+	padding-top: .3em;
+	padding-bottom: .3em;
     }
 }
 
