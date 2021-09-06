@@ -26,5 +26,12 @@ destination.addEventListener("change", event => {
 })
 
 function displayPredictions(predictions) {
-    console.log(predictions)
+    const fragment = new DocumentFragment();
+    predictions.forEach(prediction => {
+	const pEl = document.createElement("p");
+	pEl.textContent = prediction.description;
+	pEl.classList.add("prediction");
+	fragment.appendChild(pEl);
+    });
+    destination.parentNode.appendChild(fragment);
 }
