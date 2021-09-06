@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 const service = new google.maps.places.AutocompleteService();
 const destination = document.getElementById("destination");
-destination.addEventListener("change", event => {
+destination.addEventListener("input", event => {
     console.log(event.target.value)
     const neKenya = new google.maps.LatLng({ lat: 4.995, lng: 42.764 });
     const swKenya = new google.maps.LatLng({ lat: -5.196, lng: 34.021 });
@@ -23,9 +23,11 @@ destination.addEventListener("change", event => {
 		displayPredictions(predictions);
 	    }
 	});
+    removePreviousPredictions();
 })
 
 function displayPredictions(predictions) {
+    console.log(predictions)
     const fragment = new DocumentFragment();
     predictions.forEach(prediction => {
 	const pEl = document.createElement("p");
@@ -34,4 +36,10 @@ function displayPredictions(predictions) {
 	fragment.appendChild(pEl);
     });
     destination.parentNode.appendChild(fragment);
+}
+
+function removePreviousPredictions() {
+    const predictions = document.querySelectorAll(".prediction");
+    predictions.forEach(
+	prediction => prediction.parentNode.removeChild(prediction))
 }
