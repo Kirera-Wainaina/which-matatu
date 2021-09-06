@@ -90,6 +90,21 @@ h1 {
     padding: 1em;
 }
 
+#search-container {
+    grid-column: 1 / 13;
+    background-color: var(--wm-gold);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+#destination {
+    height: 2em;
+    width: 50vw;
+    margin-top: 3em;
+    font-size: 1.4em;
+}
+
 @media (max-width: 500px) {
     body {
 	grid-template-columns: repeat(5, 1fr);
@@ -124,6 +139,14 @@ h1 {
 
     #tip-container p {
 	
+    }
+
+    #search-container {
+	grid-column: 1 / 6;
+    }
+    
+    #destination {
+	width: 80vw;
     }
 }
 
