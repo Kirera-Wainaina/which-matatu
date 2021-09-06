@@ -32,6 +32,7 @@ function displayPredictions(predictions) {
     predictions.forEach(prediction => {
 	const pEl = document.createElement("p");
 	pEl.textContent = prediction.description;
+	pEl.dataset.placeId = prediction.place_id;
 	pEl.classList.add("prediction");
 	fragment.appendChild(pEl);
     });
