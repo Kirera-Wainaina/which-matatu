@@ -105,7 +105,7 @@ h1 {
     align-items: center;
 }
 
-#destination {
+.search {
     height: 2em;
     width: 50vw;
     margin-top: 3em;
@@ -173,7 +173,7 @@ h1 {
 	height: 75vh;
     }
     
-    #destination {
+    .search {
 	width: 80vw;
     }
 
