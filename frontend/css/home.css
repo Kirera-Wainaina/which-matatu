@@ -114,9 +114,16 @@ h1 {
     font-size: 1.4em;
 }
 
-#destination-prediction-container {
+.prediction-container {
     position: absolute;
+}
+
+#destination-prediction-container {
     top: 8em;
+}
+
+#boarding-prediction-container {
+    top: 15.5em;
 }
 
 .prediction {

@@ -10,8 +10,12 @@ window.addEventListener("DOMContentLoaded", () => {
 
 const service = new google.maps.places.AutocompleteService();
 const destination = document.getElementById("destination");
-destination.addEventListener("input", event => {
-    console.log(event.target.value)
+destination.addEventListener("input", getPredictions);
+
+const boardingPoint = document.getElementById("boarding-point");
+boardingPoint.addEventListener("input", getPredictions);
+
+function getPredictions(event) {
     const neKenya = new google.maps.LatLng({ lat: 4.995, lng: 42.764 });
     const swKenya = new google.maps.LatLng({ lat: -5.196, lng: 34.021 });
     service.getPlacePredictions(
@@ -20,17 +24,25 @@ destination.addEventListener("input", event => {
 	(predictions, status) => {
 	    console.log(status);
 	    if (status == google.maps.places.PlacesServiceStatus.OK) {
-		displayPredictions(predictions);
+		const possibleId = "destination";
+		console.log(event.target.id)
+		if (event.target.id == possibleId) {
+		    displayPredictions(
+			predictions,
+			document.getElementById("destination-prediction-container"));
+		} else {
+		    displayPredictions(
+			predictions,
+			document.getElementById("boarding-prediction-container"));
+		}
 	    }
 	});
     removePreviousPredictions();
-})
+    
+}
 
-function displayPredictions(predictions) {
-    console.log(predictions)
+function displayPredictions(predictions, predictionContainer) {
     const fragment = new DocumentFragment();
-    const predictionContainer = document.getElementById(
-	"destination-prediction-container");
     predictions.forEach(prediction => {
 	const pEl = document.createElement("p");
 	pEl.textContent = prediction.description;
