@@ -100,9 +100,11 @@ h1 {
     background-color: var(--wm-gold);
     height: 50vh;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
+    /* The position is that when I use position on the prediction container,
+     it is adjusted relative to this container, not the entire document. */
+    position: relative;
 }
 
 .search {
@@ -110,6 +112,11 @@ h1 {
     width: 50vw;
     margin-top: 3em;
     font-size: 1.4em;
+}
+
+#destination-prediction-container {
+    position: absolute;
+    top: 8em;
 }
 
 .prediction {

@@ -29,6 +29,8 @@ destination.addEventListener("input", event => {
 function displayPredictions(predictions) {
     console.log(predictions)
     const fragment = new DocumentFragment();
+    const predictionContainer = document.getElementById(
+	"destination-prediction-container");
     predictions.forEach(prediction => {
 	const pEl = document.createElement("p");
 	pEl.textContent = prediction.description;
@@ -37,8 +39,7 @@ function displayPredictions(predictions) {
 	pEl.addEventListener("click", handlePredictionClick)
 	fragment.appendChild(pEl);
     });
-    destination.parentNode.insertBefore(
-	fragment, document.getElementById("boarding-point"));
+    predictionContainer.appendChild(fragment);
 }
 
 function removePreviousPredictions() {
