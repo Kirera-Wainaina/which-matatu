@@ -37,7 +37,8 @@ function displayPredictions(predictions) {
 	pEl.addEventListener("click", handlePredictionClick)
 	fragment.appendChild(pEl);
     });
-    destination.parentNode.appendChild(fragment);
+    destination.parentNode.insertBefore(
+	fragment, document.getElementById("boarding-point"));
 }
 
 function removePreviousPredictions() {
