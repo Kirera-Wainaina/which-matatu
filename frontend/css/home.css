@@ -116,6 +116,7 @@ h1 {
 
 .prediction-container {
     position: absolute;
+    z-index: 1;
 }
 
 #destination-prediction-container {
@@ -223,6 +224,14 @@ h1 {
 	padding-bottom: .3em;
     }
 
+    #destination-prediction-container {
+	top: 5.5em;
+    }
+
+    #boarding-prediction-container {
+	top: 11em;
+    }
+    
     #show-button {
 	width: 75vw;
 	font-size: 1.2em;
