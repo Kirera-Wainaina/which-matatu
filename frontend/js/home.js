@@ -30,10 +30,8 @@ function getPredictions(event) {
 	{ input: event.target.value,
 	  bounds: new google.maps.LatLngBounds(swKenya, neKenya) },
 	(predictions, status) => {
-	    console.log(status);
 	    if (status == google.maps.places.PlacesServiceStatus.OK) {
 		const possibleId = "destination";
-		console.log(event.target.id)
 		if (event.target.id == possibleId) {
 		    displayPredictions(
 			predictions,
