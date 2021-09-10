@@ -1,3 +1,8 @@
+const headElement = document.querySelector("head");
+const script = document.createElement("script");
+script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAjL0Jw5llxuZBtiJUwv2BFTuPeHt_CXQQ&libraries=places&callback=initMap";
+headElement.appendChild(script);
+
 window.addEventListener("DOMContentLoaded", () => {
     const logo = document.getElementById("logo");
     logo.addEventListener(
@@ -8,12 +13,15 @@ window.addEventListener("DOMContentLoaded", () => {
 	})
 })
 
-const service = new google.maps.places.AutocompleteService();
-const destination = document.getElementById("destination");
-destination.addEventListener("input", getPredictions);
+let service;
+window.addEventListener("load", () => {
+    service = new google.maps.places.AutocompleteService();
+    const destination = document.getElementById("destination");
+    destination.addEventListener("input", getPredictions);
 
-const boardingPoint = document.getElementById("boarding-point");
-boardingPoint.addEventListener("input", getPredictions);
+    const boardingPoint = document.getElementById("boarding-point");
+    boardingPoint.addEventListener("input", getPredictions);
+});
 
 function getPredictions(event) {
     const neKenya = new google.maps.LatLng({ lat: 4.995, lng: 42.764 });
@@ -62,4 +70,12 @@ function removePreviousPredictions() {
 
 function handlePredictionClick(event) {
     console.log(event.target.dataset.placeId)
+}
+
+function initMap() {
+    const options = {
+	center: { lat: -1.2793, lng: 36.821 },
+	zoom: 8
+    };
+    const map = new google.maps.Map(document.getElementById("map"), options);
 }
