@@ -73,7 +73,7 @@ function handlePredictionClick(event) {
 function initMap() {
     const options = {
 	center: { lat: -1.2793, lng: 36.821 },
-	zoom: 8
+	zoom: 10
     };
     const map = new google.maps.Map(document.getElementById("map"), options);
 }

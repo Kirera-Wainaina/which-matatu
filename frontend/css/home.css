@@ -110,7 +110,7 @@ h1 {
 .search {
     height: 2em;
     width: 50vw;
-    margin-top: 3em;
+    margin-top: 2em;
     font-size: 1.4em;
 }
 
@@ -123,7 +123,7 @@ h1 {
 }
 
 #boarding-prediction-container {
-    top: 15em;
+    top: 13em;
 }
 
 .prediction {
@@ -166,6 +166,8 @@ h1 {
 #map {
     grid-column: 2 / 12;
     height: 75vh;
+    margin-top: 2em;
+    border: 1px solid var(--wm-gold);
 }
 
 @media (max-width: 500px) {
