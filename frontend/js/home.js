@@ -77,3 +77,20 @@ function initMap() {
     };
     const map = new google.maps.Map(document.getElementById("map"), options);
 }
+
+const matchQuery = window.matchMedia("(max-width: 500px)");
+matchQuery.addEventListener("change", handleMenu);
+
+function handleMenu(event) {
+    console.log("Changed")
+    console.log(event.matches);
+    const menu = document.getElementById("menu");
+    const menuIcon = document.getElementById("menu-icon");
+    if (event.matches) {
+	menu.style.display = "none";
+	menuIcon.style.display = "flex";
+    } else {
+	menu.style.display = "flex";
+	menuIcon.style.display = "none";
+    }
+}
