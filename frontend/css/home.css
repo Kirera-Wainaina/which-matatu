@@ -101,6 +101,12 @@ header span {
     color: black;
     padding: 0.5em;
     box-shadow: var(--button-shadow);
+    font-weight: 600;
+}
+
+.link-button:hover {
+    background-color: var(--wm-gold);
+    color: black;
 }
 
 h1 {
