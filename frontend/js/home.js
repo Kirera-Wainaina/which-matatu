@@ -81,12 +81,12 @@ function initMap() {
 const matchQuery = window.matchMedia("(max-width: 500px)");
 matchQuery.addEventListener("change", handleMenu);
 
-function handleMenu(event) {
-    console.log("Changed")
-    console.log(event.matches);
+function handleMenu() {
+    // console.log("Changed")
+    // console.log(event.matches);
     const menu = document.getElementById("menu");
     const menuIcon = document.getElementById("menu-icon");
-    if (event.matches) {
+    if (matchQuery.matches) {
 	menu.style.display = "none";
 	menuIcon.style.display = "flex";
     } else {
@@ -94,3 +94,9 @@ function handleMenu(event) {
 	menuIcon.style.display = "none";
     }
 }
+
+window.addEventListener("DOMContentLoaded", () => {
+    console.log("Called")
+    console.log(matchQuery.matches)
+    handleMenu()
+});
