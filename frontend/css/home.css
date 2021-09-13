@@ -9,12 +9,16 @@
     margin: 0;
 }
 
+a {
+    text-decoration-line: none;
+}
+
 body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
 }
 
-h1, h2, h3, h4, p, button {
+h1, h2, h3, h4, p, button, a {
     font-family: "Nanum Myeongjo", serif;
 }
 
@@ -52,7 +56,7 @@ header > img {
 
 @keyframes screech {
     0% {
-	margin-left: 79%;
+	margin-left: 68%;
     }
 
     100% {
@@ -82,11 +86,20 @@ header span {
 #menu {
     grid-column: 11 / 13;
     display: none;
+    align-items: center;
+    justify-content: center;
 }
 
 #menu-icon {
     display: none;
     grid-column: 5 / 6;
+}
+
+.link-button {
+    border: 1px solid var(--wm-gold);
+    color: black;
+    padding: 0.5em;
+    box-shadow: 0px 0px 4px var(--wm-gold);
 }
 
 h1 {
