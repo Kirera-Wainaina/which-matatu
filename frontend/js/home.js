@@ -82,8 +82,6 @@ const matchQuery = window.matchMedia("(max-width: 500px)");
 matchQuery.addEventListener("change", handleMenu);
 
 function handleMenu() {
-    // console.log("Changed")
-    // console.log(event.matches);
     const menu = document.getElementById("menu");
     const menuIcon = document.getElementById("menu-icon");
     if (matchQuery.matches) {
@@ -95,8 +93,4 @@ function handleMenu() {
     }
 }
 
-window.addEventListener("DOMContentLoaded", () => {
-    console.log("Called")
-    console.log(matchQuery.matches)
-    handleMenu()
-});
+window.addEventListener("DOMContentLoaded", handleMenu);
