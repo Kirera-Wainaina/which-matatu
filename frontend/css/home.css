@@ -256,6 +256,16 @@ h1 {
 	border: 1px solid var(--wm-gold);
 	box-shadow: var(--button-shadow)
     }
+
+    .link-button {
+	margin-top: 1em;
+	width: 80%;
+	box-shadow: none;
+	height: 2em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    }
     
     .snips {
 	grid-column: 2 / 5;
