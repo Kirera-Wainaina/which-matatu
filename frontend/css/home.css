@@ -4,6 +4,7 @@
 :root {
     --wm-gold: #cf9b00;
     --button-shadow: 0px 0px 4px var(--wm-gold);
+    --wm-light-gold: #ffd24d;
 }
 
 * {
@@ -88,7 +89,7 @@ header span {
     grid-column: 11 / 13;
     display: none;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 #menu-icon {
@@ -102,11 +103,19 @@ header span {
     padding: 0.5em;
     box-shadow: var(--button-shadow);
     font-weight: 600;
+    width: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .link-button:hover {
     background-color: var(--wm-gold);
     color: black;
+}
+
+#login {
+    background-color: var(--wm-light-gold);
 }
 
 h1 {
@@ -262,9 +271,6 @@ h1 {
 	width: 80%;
 	box-shadow: none;
 	height: 2em;
-	display: flex;
-	align-items: center;
-	justify-content: center;
     }
     
     .snips {
