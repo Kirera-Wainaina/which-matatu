@@ -8,12 +8,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="/frontend/images/favicon.svg">
     <link rel="apple-touch-icon" href="/frontend/images/favicon.svg">
-    <link rel="stylesheet" href="">
-    <script src=""></script>
+    <link rel="stylesheet" href="/frontend/css/login.css">
+    <script defer src="/frontend/js/login.js"></script>
   </head>
 
   <body>
     <noscript>You need to enable Javascript to run this app</noscript>
+    <header>
+      <div id="logo-container">
+	<img src="/frontend/images/favicon.svg" alt="simple logo" />
+	<p id="logo">Which Matatu<span> ?</span></p>
+      </div>
+      <div id="menu">
+	<a class="link-button" id="contribute" href="">Add Info</a>
+	<a class="link-button" id="login" href="/login">Login</a>
+      </div>
+      <img src="/frontend/images/menu-icon.svg" id="menu-icon"></img>
+    </header>
     <p>Login</p>
   </body>
 </html>
