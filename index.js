@@ -26,8 +26,15 @@ server.on("request", (request, response) => {
 server.listen(port, () => console.log(`Listening on port ${port}`));
 
 function handleFile(response, webRoute) {
-    const route = path.join(__dirname, webRoute);
-    const mimeType = mimes.findMIMETypeFromExtension(path.extname(route));
+    let route, mimeType;
+    if (path.extname(webRoute)) {
+	route = path.join(__dirname, webRoute);
+	mimeType = mimes.findMIMETypeFromExtension(path.extname(route));
+    } else {
+	// browser routes
+	mimeType = mimes.findMIMETypeFromExtension(".html");
+	route = path.join(__dirname, "frontend", "html",  webRoute + ".html");
+    }
     response.writeHead(200, { "content-type": mimeType });
     fs.createReadStream(route)
 	.pipe(response)
