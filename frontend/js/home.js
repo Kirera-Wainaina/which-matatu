@@ -81,9 +81,12 @@ function initMap() {
 const matchQuery = window.matchMedia("(max-width: 500px)");
 matchQuery.addEventListener("change", handleMenu);
 
+window.addEventListener("DOMContentLoaded", handleMenu);
+
+const menuIcon = document.getElementById("menu-icon");
+const menu = document.getElementById("menu");
+
 function handleMenu() {
-    const menu = document.getElementById("menu");
-    const menuIcon = document.getElementById("menu-icon");
     if (matchQuery.matches) {
 	menu.style.display = "none";
 	menuIcon.style.display = "flex";
@@ -93,4 +96,7 @@ function handleMenu() {
     }
 }
 
-window.addEventListener("DOMContentLoaded", handleMenu);
+menuIcon.addEventListener("click", () => {
+    console.log("menu clicked");
+    menu.style.display = "flex";
+});
