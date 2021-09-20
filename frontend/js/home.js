@@ -3,16 +3,6 @@ const script = document.createElement("script");
 script.src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyAjL0Jw5llxuZBtiJUwv2BFTuPeHt_CXQQ&libraries=places&callback=initMap";
 headElement.appendChild(script);
 
-window.addEventListener("DOMContentLoaded", () => {
-    const logo = document.getElementById("logo");
-    logo.addEventListener(
-	"animationend",
-	() => {
-	    const logoQuestion = document.querySelector("#logo span");
-	    logoQuestion.style.animation = "1s hanging forwards";
-	})
-})
-
 let service;
 window.addEventListener("load", () => {
     service = new google.maps.places.AutocompleteService();
@@ -78,33 +68,3 @@ function initMap() {
     const map = new google.maps.Map(document.getElementById("map"), options);
 }
 
-const matchQuery = window.matchMedia("(max-width: 500px)");
-matchQuery.addEventListener("change", handleMenu);
-
-window.addEventListener("DOMContentLoaded", handleMenu);
-
-const menuIcon = document.getElementById("menu-icon");
-const menu = document.getElementById("menu");
-
-function handleMenu() {
-    if (matchQuery.matches) {
-	menu.style.display = "none";
-	menuIcon.style.display = "flex";
-    } else {
-	menu.style.display = "flex";
-	menuIcon.style.display = "none";
-    }
-}
-
-menuIcon.addEventListener("click", () => {
-    menu.style.display = "flex";
-});
-
-document.addEventListener("click", event => {
-    if (menu.style.display == "flex") {
-	menu.style.display = "none";
-    }
-    if (event.target.id == "menu-icon") {
-	menu.style.display = "flex";
-    }
-});
