@@ -97,6 +97,14 @@ function handleMenu() {
 }
 
 menuIcon.addEventListener("click", () => {
-    console.log("menu clicked");
     menu.style.display = "flex";
+});
+
+document.addEventListener("click", event => {
+    if (menu.style.display == "flex") {
+	menu.style.display = "none";
+    }
+    if (event.target.id == "menu-icon") {
+	menu.style.display = "flex";
+    }
 });
