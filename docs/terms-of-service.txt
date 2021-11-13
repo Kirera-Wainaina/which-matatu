@@ -1,14 +1,6 @@
 Terms of Service
 ================
 
-1. Introduction 2. Contracts are Binding and Legally Enforceable
-3. Age Eligibility 4. Access to the Service 5. User Obligations
-6. Content Permissions, Restrictions, and Creative Commons Licensing
-7. Disclaimer and Warranties 8. Indemnification 9. Limitation of
-Liability
-
-By using our products, you agree to our terms of service.
-
 Which Matatu is a web service for updating and querying boarding and
 drop off points of matatus in Kenya (also referred to herein as the
 "Service"), owned and operated by Sizawi Ltd (the "Company", "we", or
@@ -20,6 +12,18 @@ that respects your fellow community members. To that end, we provide
 you with these terms of service ("Terms") to advice you on the legal
 obligations you assume when you engage with the community or otherwise
 access or use the Service. These terms govern the use of the Service.
+
+1. Introduction
+2. Contracts are Binding and Legally Enforceable
+3. Age Eligibility
+4. Access to the Service
+5. User Obligations
+6. Content Permissions, Restrictions, and Creative Commons Licensing
+7. Disclaimer and Warranties
+8. Indemnification
+9. Limitation of Liability
+
+By using our products, you agree to our terms of service.
 
 1. Introduction
 
