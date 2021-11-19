@@ -1,0 +1,129 @@
+Privacy Policy
+==============
+
+Which Matatu is a web service for updating and querying boarding and
+drop off points of matatus in Kenya (also referred to herein as the
+"Service"), owned and operated by Sizawi Ltd (the "Company", "we", or
+"us"). We officially welcome you to the Service. A community of
+commuters around Kenya and we invite you to participate in the Which
+Matatu Community by sharing your knowledge with your fellow
+travelers. Like all communities, we ask you to participate in a manner
+that respects your fellow community members. To that end, we provide
+you with these terms of service ("Terms") to advice you on the legal
+obligations you assume when you engage with the community or otherwise
+access or use the Service.
+
+1. Introduction to our Privacy Policy
+2. General Privacy Notice for Which Matatu
+3. What Information do we Collect?
+
+1. Introduction to our Privacy Policy
+
+Which Matatu's Service can be accessed by users across various
+locations including in jurisdictions which have specific privacy
+requirements.
+
+This privacy policy describes how we collect, use, protect, share and
+transfer information about you when you use any of our products and
+services, or otherwise interact with us.
+
+Personal data is any information about you by which you can be
+identified or be identifiable (either on its own or when combined with
+other information). This can include information such as your name,
+email address and username; information about your device (e.g. IP
+address); and information relating to how you use and interact with
+our website.
+
+2. General Privacy Notice for Which Matatu
+
+This Privacy Notice is applicable to you, including when you contact
+our customer service, sales or other teams for assistance or
+inquiries.
+
+Our website allows user to engage in a community to share their
+knowledge and expertise, and to gain knowledge and expertise. It is
+community-moderated and the content in the website is public and
+therefore visible for anyone to see and is subject to our Terms of
+Use.
+
+Below you will find details about the personal information we collect
+about you when you use our Services and interact with us; how and why
+we collect it, how we use it, and how we keep it secure.
+
+The Privacy Policy tells you about your rights, how you can exercise
+those rights, and how the law protects you.
+
+Sizawi Ltd. is the controller responsible for your personal data
+collected on the website or directly by us for our operational
+purposes.
+
+3. What Information do we Collect?
+
+This section sets out the categories and details of personal
+information that we collect across our Services.
+
+We collect and process your personal information in order to offer the
+Website, and to offer you our Services.
+
+If you decline to provide us with personal information when we ask
+you, you may not be able to access all or some of our Services, and
+you may not be able to use the Website or Services. For example, if
+you do not provide us with your email address or other information
+required for account registration, we will not be able to register you
+for certain account services.
+
+We collect:
+
+Identity Data
+We collect information such as your username, email address, password,
+IP address(collected at each site visit). This information is also
+used to identify individual users the Website and to award activities
+and attribute them to you. Your username and additional content you
+provide, including your profile picture, stage pickup and drop off
+points, and your reputation, are publicly visible. We, or our
+community moderators may delete a route, a stage, a comment, or all of
+them, and after deletion such information is only available to certain
+community members.
+
+Contact Data
+Including email address and telephone numbers, where need arises, for
+operational purposes including providing Services.
+
+Technical Data
+Including Internet Protocol(IP) address, your login data, traffic
+data, browser type and version, browser plug-in types and versions,
+time zone setting and location, operation system, and platform and
+other communication data which gives us information about how you
+accessed our Website. Other account information and usage information
+including your IP address and browser data may be used for diagnosis,
+security and Services' optimization.
+
+Account Registration Information
+When you register for a Which Matatu account, we collect your name and
+email address, your username and any other additional information you
+provide. We will generate a unique identification number that we will
+use to recognize you when you are signed in. We need to collect your
+personal information for account registration purposes. Although the
+Website provides for anonymous and pseudonymous participation, in some
+instances in order to use certain services, we require account
+registration. This requires a name associated with your account, an
+email address at which we can contact you, and in some cases,
+additional information, including a contact address, a billing
+address, and a password to help secure your personal information.
+
+Billing Information
+For Services requiring payment, we collect a billing name, phone
+number and email address. If you elect to pay via credit card or
+Mobile payment, we may elect to engage a third party to securely
+process your payment. All payment processing is done through a PCI DSS
+compliant third party. If customers are paying by a credit card, their
+card details are vaulted through a third party payment gateway. Sizawi
+will store an encrypted token along with the last four digits of the
+credit card and the expiration month and year of the card and will not
+store or retain any other billing information about you.
+
+Profile Information
+When completing a public "profile", whether it is for use with the
+Website or our Services, we may require you to share certain
+personally identifying information in required and optional profile
+fields.
