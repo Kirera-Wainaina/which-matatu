@@ -16,6 +16,9 @@ access or use the Service.
 1. Introduction to our Privacy Policy
 2. General Privacy Notice for Which Matatu
 3. What Information do we Collect?
+4. How We Use Your Personal Data
+5. Your Rights
+6. Updates and Interpretation
 
 1. Introduction to our Privacy Policy
 
@@ -126,4 +129,226 @@ Profile Information
 When completing a public "profile", whether it is for use with the
 Website or our Services, we may require you to share certain
 personally identifying information in required and optional profile
-fields.
+fields. The name associated with your account which you may review and
+change in your account settings, as well as reputation points are
+publicly displayed and connected to your activity on the
+Website. Moderators, who have elevated access privileges, may access
+non-public user profile data, as well as content in posts and other
+public data.
+
+Other profile information may be publicly displayed if you choose to
+complete certain elective components of the Account Registration
+Options.
+
+Information We Use to Identify And Authenticate You
+We need this information to be able to recognize you, for example,
+when you access your accounts. It also helps us protect your details
+and keep them secure. We may also use this information for fraud
+detection and prevention.
+
+Analytics Information
+Which Matatu uses data analytics to ensure site functionality and to
+optimize our Service offerings to you. We use web browser and mobile
+analytics to allow us to understand the Website functionality. In
+doing so, we record information including, for example, how often you
+visit the website, how often you contribute content, Website
+performance data, errors and debugging information, and the type of
+activity you engage in while on the Website or in your use of the
+Services. We may on occasion share this information with third parties
+with whom we have contracts for services to assist Which Matatu.
+
+Information from Surveys, Questionnaires, Research and Feedback
+Programs
+We collect information from surveys, questionnaires, research and
+feedback programs to help improve our services and give us
+insights. We may also conduct similar research for advertisers and our
+marketing partners. We ask you for your consent to use this
+information when you participate in these programs and events.
+
+Marketing and Sales Information
+We collect information on the Services you receive and your
+preferences; information about your device or the software you use,
+e.g., its IP address, technical information and uniquely identifying
+data; cookies and similar technologies we use to recognize you,
+remember your preferences and tailor the content we provide to you.
+
+Device and Browser Information Received Automatically
+When you visit the website, Which Matatu automatically receives and
+records information from your browser or mobile device, such as your
+Internet Protocol (IP) address or unique device identifier. Cookies
+and data about which pages you visit on our Website allow us to
+operate and optimize the Services we provide to you. This information
+is stored in secure logs and is collected automatically.
+
+We may combine this information with other information we collect
+about you. The information is used to keep the Services secure, to
+analyze and understand how our services are used, optimize such usage,
+and provide advertising across the Website as well as certain Services
+to personalize your experience.
+
+Location Information
+When you use the Which Matatu Website and certain Services, we collect
+location information about you, including your IP address, you
+location, browser information, and how you came to the website. This
+is the case for individuals who have registered for an account, and
+non-members who engage with the Website but have not completed and
+account registration.
+
+The information is collected for various purposes, including
+advertising, analytics and to serve content as it relates to certain
+services, as well as to provide you with localized content,
+recommendations and marketing. Certain location information we collect
+is required for security and site functionality. We may share this
+information with certain third parties (e.g., payment processors and
+advertising providers) in order to provide you with our services.
+
+You should not include any financial information or other information
+you do not wish to make public when posting public information on our
+Website. It is your responsibility to keep such information safe and
+secure.
+
+Revoking Permissions on Public Posts
+Please be aware when using the Public Posts, you cannot revoke
+permission for Which Matatu to publish and to allow others to have
+derivative rights to such public content once it is made public.
+
+The content you contribute on the public network is public, in
+perpetuity, and Which Matatu loses control over such content when it is
+published on the open internet. This also means that if you post
+personal information about yourself, you do so at your own risk,
+including the risk of abandoning any privacy rights you had in such
+information. However, we can work with users to remove any personal
+data that has been posted in error or which a user wishes to remove.
+
+4. How We Use Your Personal Data
+This section explains how we use your personal data and what we need
+it for (purposes). We use your personal data only when we have a valid
+reason and the legal grounds to do so. We determine the legal grounds
+based on the purposes for which we have collected your personal
+data.
+
+Purposes for collecting and using personal information
+We use the personal information for the following purposes:
+- To verify your identity and enable you to access your Services when
+you contact us or use our services.
+- To protect your from fraud and for fraud prevention and detection.
+- To provide commercial quotes to you e.g., when you inquire about a
+service.
+- For statistical analysis.
+- To operate and improve our website.
+- To notify you of any changes to our Website or Services that may
+affect you.
+- To provide you with technical and customer support.
+- To ask your opinion or feedback on our services or surveys.
+- To communicate with you about other Which Matatu Services, events,
+offers, promotions and other information or news that we think may be
+of interest to you. Whenever we communicate with you in this way, we
+will give you an opportunity to opt out of receiving future messages.
+- To enforce our legal rights or comply with legal requirements.
+- To provide improved website and service experience and
+communications informed by your Service subscription and/or data
+collected.
+
+Our legal grounds for using personal data
+We will only use your personal data when the law allows us to. We will
+use your personal data in the following circumstances:
+- Where we need to perform the contract we are about to enter into or
+have entered into with you. For example, where you have purchased a
+product or service or requested a service from us.
+- Where we have your consent. For example, where you have provided
+your consent to receive marketing emails from us or where you have
+given your consent to be contacted by a third party sponsor for an
+event you have participated in. You can withdraw your consent at any
+time. In the case of marketing emails, you can withdraw your consent
+by clicking on the "unsubscribe" link in the email you received.
+- Where we need to comply with a legal or regulatory obligation.
+- Where it is in our legitimate interests, including our commercial
+interests or a third party's legitimate interest in using the personal
+information. Examples include when we analyze what content has been
+viewed on our Website, so that we can understand how they are used and
+improve our content; carrying out marketing analyses to better
+understand your interests and preferences so that we can make our
+marketing more relevant to your interests and preferences. This
+includes when we promote our own products and services.
+
+Whenever we rely on legitimate interests for processing, we ensure
+that we consider and balance our interests against the individual's
+interests before processing. We do not use your personal data on the
+basis of legitimate interests for activities where individuals'
+interests override our interests.
+
+
+More details on how we use your personal data
+Cookies and Similar Technologies
+When you visit our website, we may collect personal data from you
+automatically using cookies or similar technologies. A cookies is a
+small file that can be placed on your device that allows us to
+recognize and remember you. We may place cookies on your device (with
+your consent, where applicable), as well as partner with third
+parties, including advertising partners, who may use cookies or other
+similar technologies to provide you with advertising based on your
+browsing activities and interests.
+
+Tracking
+Which Matatu emails use Javascript for email tracking of opens,
+clicks, and unsubscribes, or may contain a small, invisible, one pixel
+image which can be used to let us know when the email is opened or
+forwarded. If the email recipient has images enabled on their device,
+when the email is opened, a message (an automatic request) is sent to
+Which Matatu's server requesting for the image. That request is logged
+and tells us the email has been opened. A similar process may be used
+in relation to links or attachments in the email, with a request being
+sent to Which Matatu for the content that is accessible via the links
+or attachments, thus telling Which Matatu that the link or attachment
+has been accessed.
+
+Advertising on our Website
+We work with third party advertisers to deliver ads on our
+Website. This involves tracking, targeting and measuring, using your
+personal data.
+
+Targeting
+- Advertisers can target their campaigns using topic tags.
+- Advertisers can target by geography, which is identified through
+Google Ad Manager, based on a visitor's IP address.
+
+5. Your Rights
+You have a number of rights in relation to your personal data, and you
+can contact us if you want to exercise any of these.
+
+Your rights include:
+Access - The right to be provided with a copy of your personal data.
+Rectification - The right to require us to correct any mistakes in
+your personal data.
+Erasure - The right to require us to delete your personal data-in
+certain situations.
+Restriction of processing - The right to require us to restrict
+processing of your personal data in certain circumstances e.g., if you
+contest the accuracy of the data.
+Data portability - The right to receive the personal data you provided
+to us, in a structured, commonly used and machine-readable format
+and/or transmit that data to a third part - in certain situations.
+To Object - The right to object: (1) at any time your personal data
+being processed for direct marketing (including profiling); (2) in
+certain other situations to our continued processing of your personal
+data, e.g., processing carried out for the purpose of our legitimate
+interests.
+
+We may need to request specific information from you to help us
+confirm your identity before we can deal with your request. We will
+respond to your request within one month. If your request is
+complicated, it may take us longer. We will let you know if we need
+longer than one month to respond.
+
+6. Updates and Interpretation
+We may update this Privacy Policy as required by applicable law and to
+reflect changes to our Personal Information Practices. If we make any
+changes that we deem as "material" (at our good faith discretion), we
+will notify you (using one of the notification methods mentioned
+earlier) prior to the change becoming effective. In relation to any
+updated Privacy Policy, we will, as required by any applicable law,
+notify you, seek you consent and/or take any other measures. We
+encourage you to periodically review this page for the latest
+information in our privacy practices. Unless otherwise stated, our
+most current Privacy Policy applies to all the Personal Information
+that we have about you and across all our Services.
